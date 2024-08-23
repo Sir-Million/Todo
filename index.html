@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="card">
+            <div class="InternCard">
+                <select class="taskType" id="taskType">
+                    <option value="1">Pendiente</option>
+                    <option value="2">Trabajo</option>
+                    <option value="3">Concluido</option>
+                    <option value="4">Otro</option>
+                </select>
+
+                <input class="taskName" type="text" id="taskName" placeholder="Escribe el nombre de la tarea" autocomplete="off">
+            </div>
+
+            <button onclick="addTask()">Agregar Tarea</button>
+        </div>
+
+        <div class="card">
+            <input class="todoName" type="text" placeholder="Escribe el nombre de tu ToDo!" autocomplete="off">
+            <hr>
+            <div class="itemslist" id="itemslist"></div>
+        </div>
+
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+        <a class="footer" href="https://www.instagram.com/million.js/" target="_blank" rel="noopener noreferrer">
+            Page designed by <span>@million.js</span>
+        </a>
+        
+        <script src="script.js"></script>
+        <script src="other.js"></script>
+
+    </body>
+</html>
