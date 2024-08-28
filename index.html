@@ -24,9 +24,26 @@
         </div>
 
         <div class="card">
+            
             <input class="todoName" type="text" placeholder="Escribe el nombre de tu ToDo!" autocomplete="off">
+            
             <hr>
+            
             <div class="itemslist" id="itemslist"></div>
+            
+            <hr>
+            
+            <div class="butonera">
+                <!-- Botón para exportar datos a un archivo JSON -->
+                <button id="exportButton"><ion-icon name="arrow-round-down"></ion-icon></button>
+
+                <!-- Botón para importar datos desde un archivo JSON -->
+                <input type="file" id="importInput" style="display:none;">
+                <button id="importButton"><ion-icon name="arrow-round-up"></ion-icon></button>
+
+                <button id="clearButton"><ion-icon name="trash"></ion-icon></button>
+            </div>
+            
         </div>
 
         <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
@@ -37,6 +54,8 @@
         
         <script src="script.js"></script>
         <script src="other.js"></script>
+
+        <script src="inout.js"></script>
 
     </body>
 </html>

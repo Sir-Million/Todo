@@ -84,6 +84,8 @@ hr {
     height: 5px;
     background-color: #434343;
     border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .itemslist {
@@ -152,4 +154,27 @@ ion-icon {
 
 .footer span {
     color: #ff66c4;
+}
+
+.butonera {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.butonera button {
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+    background: transparent;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 0 #94949462;
+}
+
+.butonera button:hover {
+    background: #666;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem .5rem #94949462;
 }
