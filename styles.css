@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-head {
-    display: none;
-}
-
 *{
     transition: 0.5s ease-in;
     color: white;
@@ -16,7 +12,6 @@ head {
 }
 
 body {
-    font-family: Arial, sans-serif;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -177,4 +172,38 @@ ion-icon {
     background: #666;
     border-radius: 50%;
     box-shadow: 0 0 1rem .5rem #94949462;
+}
+
+.privacy-policy-container {
+    background-color: #323232;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 5vh auto;
+    line-height: 1.6;
+}
+
+.privacy-policy-container h1, 
+.privacy-policy-container h2 {
+    margin-bottom: 10px;
+    text-shadow: 0 0 15px lightyellow;
+}
+
+.privacy-policy-container p, 
+.privacy-policy-container ul {
+    margin-bottom: 15px;
+}
+
+.privacy-policy-container a {
+    text-decoration: none;
+    display: inline;
+    text-shadow: 0 0 25px lightblue;
+    color: aquamarine;
+}
+
+.privacy-policy-container a:hover {
+    text-shadow: 0 0 5px lightcyan;
+    color: lightblue;
 }
